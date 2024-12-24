@@ -1,0 +1,151 @@
+.educationContainer {
+  padding: 35px;
+  text-align: center;
+  border-radius: 15px;
+  animation: fadeIn 1.5s ease;
+
+  .title {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 30px;
+    animation: slideInDown 1s ease;
+  }
+
+  .educationList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .educationItem {
+      text-align: center;
+      width: 280px;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: slideUp 1s ease;
+      text-decoration: none;
+
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      }
+
+      img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 15px;
+        border-radius: 50%;
+        border: 3px solid #0047ab;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 1rem;
+        color: #555;
+        margin-bottom: 5px;
+      }
+
+      span {
+        font-size: 0.9rem;
+        color: #777;
+      }
+    }
+  }
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+  .educationContainer {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .educationList {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .educationItem {
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .educationItem img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .educationItem h3 {
+    font-size: 1.25rem;
+  }
+
+  .educationItem p {
+    font-size: 0.9rem;
+  }
+
+  .educationItem span {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .educationItem h3 {
+    font-size: 1.1rem;
+  }
+
+  .educationItem p {
+    font-size: 0.85rem;
+  }
+
+  .educationItem span {
+    font-size: 0.75rem;
+  }
+}
+
+/* Анимации */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

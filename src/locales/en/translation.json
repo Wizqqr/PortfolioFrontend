@@ -1,0 +1,56 @@
+{
+    "header": {
+        "portfolio": "Portfolio",
+        "home": "Home",
+        "about": "About Me",
+        "services": "Services",
+        "projects": "Projects",
+        "testimonials": "Testimonials",
+        "contact": "Contact"
+    },
+    "footer": {
+        "portfolio": "Portfolio",
+        "home": "Home",
+        "about": "About Me",
+        "services": "Services",
+        "projects": "Projects",
+        "testimonials": "Testimonials",
+        "contact": "Contact",
+        "rights": "© 2024 All Rights Reserved, Inc."
+    },
+    "main": {
+        "hi": "Hi, I am",
+        "name": "Dzhumabekov Aziret",
+        "fullstack": "FullStack",
+        "developer": "Developer",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolores quod ducimus cupiditate sunt? Eligendi laborum recusandae at sint error, voluptas, consectetur iure corporis asperiores ex commodi rerum enim obcaecati.",
+        "hireMe": "Hire Me",
+        "services": "Services",
+        "servicesDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, beatae consequatur",
+        "frontend": "FrontEnd Dev",
+        "frontendDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "backend": "BackEnd Dev",
+        "backendDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "uiux": "UI/UX Design",
+        "uiuxDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "database": "Database Management",
+        "databaseDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "projects": "My Projects",
+        "education": "Education",
+        "university": "SU IT",
+        "course": "Geeks",
+        "course2": "Codify",
+        "degree": "IT college",
+        "year": "3 years",
+        "courseYear": "5 months",
+        "courseYear2": "7 months",
+        "certificate": "Backend Dev",
+        "certificate2": "Frontend Dev",
+        "skills": "IT Skills",
+        "contact": "Let's work together",
+        "email": "Your email",
+        "message": "Your message",
+        "nameContact": "Your name"
+      }
+    
+}

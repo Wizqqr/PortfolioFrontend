@@ -1,0 +1,111 @@
+.contactContainer {
+  padding: 30px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  .heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    animation: fadeInDown 1s ease;
+  }
+
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+
+    input,
+    textarea {
+      padding: 15px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      outline: none;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      transition: box-shadow 0.3s ease;
+
+      &:focus {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      }
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    button {
+      padding: 15px;
+      border: none;
+      border-radius: 8px;
+      background: linear-gradient(90deg, #ff7e5f, #feb47b);
+      color: #fff;
+      font-size: 1.2rem;
+      cursor: pointer;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      transition: background 0.3s ease, transform 0.2s ease;
+
+      &:hover {
+        background: linear-gradient(90deg, #feb47b, #ff7e5f);
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .contactContainer {
+    padding: 20px;
+  }
+
+  .heading {
+    font-size: 2rem;  /* Smaller font size */
+    text-align: center;
+  }
+
+  .contactForm {
+    width: 100%;
+    gap: 12px;  /* Smaller gap */
+  }
+
+  input,
+  textarea {
+    padding: 12px;  /* Smaller padding */
+    font-size: 0.9rem;  /* Smaller font size */
+  }
+
+  button {
+    font-size: 1rem;  /* Smaller font size */
+    padding: 12px;  /* Smaller padding */
+  }
+
+  textarea {
+    font-size: 0.9rem;  /* Smaller font size */
+  }
+
+  p {
+    font-size: 1rem;  /* Smaller font size for status message */
+  }
+}
+
+/* A animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

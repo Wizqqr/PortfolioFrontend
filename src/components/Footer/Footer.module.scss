@@ -1,0 +1,94 @@
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.navMenu {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    flex-wrap: wrap;  /* Allow the menu to wrap on smaller screens */
+    justify-content: center;
+}
+
+.navMenu li {
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-size: 1rem;  /* Default font size */
+}
+
+.navMenu li:hover {
+    color: orange; /* Hover color */
+}
+
+.socialIcons {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 30px; /* Icon size */
+    cursor: pointer;
+    color: #6c757d; /* Default icon color */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    color: orange; /* Hover color */
+}
+
+.footerText {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .footerContainer {
+        padding: 15px;
+    }
+
+    .logo {
+        font-size: 1.2rem;  /* Slightly larger font for mobile */
+        margin-bottom: 15px;
+    }
+
+    .navMenu {
+        gap: 10px;
+        flex-direction: column;  /* Stack menu items vertically */
+        align-items: center;
+    }
+
+    .navMenu li {
+        font-size: 1rem;  /* Adjust font size for smaller screens */
+    }
+
+    .socialIcons {
+        gap: 10px;
+        margin: 15px 0;
+    }
+
+    .icon {
+        font-size: 25px;  /* Smaller icon size for mobile */
+    }
+
+    .footerText {
+        font-size: 0.8rem;  /* Smaller text for footer */
+    }
+}

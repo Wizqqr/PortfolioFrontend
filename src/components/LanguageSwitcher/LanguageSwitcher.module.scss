@@ -1,0 +1,15 @@
+/* LanguageSwitcher.module.scss */
+.languages {
+    list-style: none;
+    display: flex;
+    gap: 0px;
+    cursor: pointer;
+    li {
+        padding: 5px 10px;
+        transition: background-color 0.3s;
+        &:hover {
+            color: #000000; // Change color on hover
+            border-radius: 5px;
+        }
+    }
+}

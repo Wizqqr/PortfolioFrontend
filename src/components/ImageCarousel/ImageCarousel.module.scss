@@ -1,0 +1,51 @@
+.carouselContainer {
+    display: flex;
+    align-items: center; 
+    overflow: hidden; 
+    width: 100%; 
+    height: 400px; 
+    position: relative; 
+}
+
+.imagesSection {
+    display: flex; 
+    height: 80%; 
+    column-gap: 10px;
+    overflow-x: auto; 
+}
+
+.imagesSection img {
+    height: 90%; 
+    width: auto; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+
+.scrollButton {
+    background-color: transparent; 
+    border: none; 
+    font-size: 24px; 
+    cursor: pointer; 
+    padding: 10px; 
+    margin: 0 10px; 
+}
+
+/* Мобильная версия */
+@media (max-width: 768px) {
+    .carouselContainer {
+        height: 400px; 
+    }
+
+    .imagesSection img {
+        height: 70%;
+    }
+
+    .scrollButton {
+        font-size: 20px;
+        padding: 5px; 
+    }
+
+    .imagesSection {
+        column-gap: 5px;
+    }
+}

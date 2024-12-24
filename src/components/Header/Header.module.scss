@@ -1,0 +1,105 @@
+.header {
+    color: white;
+    padding: 32px 0;
+    background-color: #1E1E1E;
+    height: 130px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      .logo h1 {
+        font-size: 35px;
+        font-weight: bold;
+        margin: 0;
+      }
+  
+      .menu, .languages {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+  
+      .menu li, .languages li {
+        cursor: pointer;
+        transition: color 0.3s ease;
+        font-size: 18px;
+        &:hover {
+          color: orange;
+        }
+      }
+    }
+  }
+  
+  .mobileHeader {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      display: none;
+    }
+  
+    .mobileHeader {
+      display: block;
+      height: 75px;
+      background-color: #1E1E1E;
+    }
+  
+    .mobileMenu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 70%; /* Adjust width to be more mobile-friendly */
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.9);
+      color: white;
+      transition: transform 0.3s ease-in-out;
+      transform: translateX(-100%);
+      padding: 20px;
+      z-index: 999;
+    }
+  
+    .mobileMenu.open {
+      transform: translateX(0);
+    }
+  
+    .mobileMenu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .mobileMenu li {
+      font-size: 18px;
+      padding: 15px 0;
+      cursor: pointer;
+      transition: color 0.3s ease;
+      &:hover {
+        color: orange;
+      }
+    }
+  
+    .burgerMenu {
+      cursor: pointer;
+      font-size: 32px;
+      color: white;
+    }
+  
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+  
+    h1 {
+      font-size: 30px;
+    }
+  }
+  

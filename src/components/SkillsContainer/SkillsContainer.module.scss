@@ -1,0 +1,62 @@
+.skillsContainer {
+  padding: 50px;
+  text-align: center;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Это обеспечивает 3 элемента в ряду */
+  gap: 20px;
+  justify-items: center; /* Центрирует элементы внутри ячеек сетки */
+}
+
+.skillItem {
+  text-align: left;
+  width: 100%; /* Обеспечивает, что skillItem занимает всю ширину своей ячейки */
+}
+
+.skillItem span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.skillBar {
+  height: 8px;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  border-radius: 4px;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+  .skillsContainer {
+    padding: 30px;
+  }
+
+  .skillsGrid {
+    grid-template-columns: repeat(2, 1fr); /* 2 элемента в ряду на экранах до 768px */
+  }
+
+  .skillItem span {
+    font-size: 1rem; /* Уменьшаем размер шрифта для мобильных устройств */
+  }
+
+  .skillBar {
+    height: 6px; /* Уменьшаем высоту полосы навыка на мобильных устройствах */
+  }
+}
+
+@media (max-width: 480px) {
+  .skillsGrid {
+    grid-template-columns: 1fr; /* Один элемент в ряду на экранах до 480px */
+  }
+
+  .skillItem span {
+    font-size: 0.9rem; /* Еще больше уменьшаем размер шрифта для маленьких экранов */
+  }
+
+  .skillBar {
+    height: 5px; /* Еще меньше высота полосы на очень маленьких экранах */
+  }
+}

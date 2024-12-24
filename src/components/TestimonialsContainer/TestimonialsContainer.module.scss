@@ -1,0 +1,18 @@
+.testimonialsContainer {
+    padding: 50px;
+    background: #282c34;
+    color: #fff;
+  
+    .testimonialsGrid {
+      display: flex;
+      gap: 20px;
+  
+      .testimonialCard {
+        background: #3c4048;
+        border-radius: 10px;
+        padding: 20px;
+        color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
