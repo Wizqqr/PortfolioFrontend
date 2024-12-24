@@ -133,11 +133,12 @@
       }
   }
 }
+.projectItem{
+    text-decoration: none;
+
+}
 
 @media (max-width: 768px) {
-  .projectsSection {
-      padding: 15px;  /* Smaller padding */
-  }
 
   .carousel {
       flex-direction: column;  /* Stack items vertically on smaller screens */

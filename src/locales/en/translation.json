@@ -50,7 +50,9 @@
         "contact": "Let's work together",
         "email": "Your email",
         "message": "Your message",
-        "nameContact": "Your name"
+        "nameContact": "Your name",
+        "send": "Send",
+        "projectDescription": "I want to show some projects that i did with my knowledge"
       }
     
 }

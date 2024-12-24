@@ -48,8 +48,10 @@
         "certificate2": "Frontend Dev",
         "skills": "IT Иштер",
         "contact": "Чогуу иштейли",
-        "email": "Ваша почта",
-        "message": "Ваше сообщение",
-        "nameContact": "Ваше имя"
+        "email": "Сиздин дарегиниз",
+        "message": "Сиздин смс",
+        "nameContact": "Сиздин атыныз",
+        "send": "Жонотуу",
+        "projectDescription": "Менин IT иштерим."
       }
 }

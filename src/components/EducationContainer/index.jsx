@@ -13,20 +13,23 @@ export const EducationContainer = () => {
       title: t("main.university"),
       description: t("main.degree"),
       year: t("main.year"),
+      link: "https://salymbekov.com/",
     },
     {
       id: 2,
       image: "https://media.licdn.com/dms/image/v2/C4E0BAQGyVdZHqRl-eg/company-logo_200_200/company-logo_200_200/0/1675181023089/geektechkg_logo?e=2147483647&v=beta&t=v7IGVp-abixoht94rVXgY_AWKxOO-q917QVIlrvzT4Y",
       title: t("main.course"),
       description: t("main.certificate"),
-      year: t("main.year"),
+      year: t("main.courseYear"),
+      link: "https://geeks.kg",
     },
     {
       id: 3,
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNs6xELizUsKPxead-RJne3N22N4JQcjSauw&s",
       title: t("main.course2"),
       description: t("main.certificate2"),
-      year: t("main.year2"),
+      year: t("main.courseYear2"),
+      link: "https://www.codifylab.com",
     },
   ];
 
@@ -35,7 +38,7 @@ export const EducationContainer = () => {
       <h1 className={styles.title}>{t("main.education")}</h1>
       <div className={styles.educationList}>
         {courses.map((course) => (
-          <Link to={`/course/${course.id}`} key={course.id} className={styles.educationItem}>
+          <Link to={course.link} key={course.id} className={styles.educationItem}>
             <img src={course.image} alt={course.title} className={styles.image} />
             <h3>{course.title}</h3>
             <p>{course.description}</p>

@@ -4,7 +4,6 @@ import { useRef } from 'react';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Main } from './pages/Main';
-import { CourseDetail } from './pages/CourseDetail';
 
 function App() {
   const homeRef = useRef(null);
@@ -44,15 +43,7 @@ function App() {
                 />
               }
             />
-            <Route path="/course/:id" element={<CourseDetail
-            refs={{
-              homeRef,
-              educationRef,
-              skillsRef,
-              projectsRef,
-              contactRef,
-            }}
-            />} />
+         
           </Routes>
           <Footer />
         </div>
