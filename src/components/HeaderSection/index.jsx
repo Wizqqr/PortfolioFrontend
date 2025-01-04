@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import styles from './HeaderSection.module.scss'
 import { Facebook, Twitter, Instagram, LinkedIn } from "@mui/icons-material";
-
+import MyPhoto from '../../images/myphoto.jpg'
 export const HeaderSection = () => {
     const { t } = useTranslation();
 
@@ -18,12 +18,11 @@ export const HeaderSection = () => {
             {t("main.developer")}
           </h1>
           <p>{t("main.description")}</p>
-          <button>{t("main.hireMe")}</button>
-        </div>
+          </div>
         <div className={styles.imageSection}>
           <div className={styles.profileImage}>
-            <img src="your-image-url.jpg" alt="Profile" />
-          </div>
+            <img src={MyPhoto} alt="Profile" />
+          </div>  
           <div className={styles.icons}>
             <Facebook className={styles.icon} />
             <Twitter className={styles.icon} />

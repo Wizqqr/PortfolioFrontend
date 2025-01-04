@@ -2,8 +2,8 @@
     "header": {
         "portfolio": "Portfolio",
         "home": "Home",
-        "about": "About Me",
-        "services": "Services",
+        "about": "Education",
+        "services": "Skills",
         "projects": "Projects",
         "testimonials": "Testimonials",
         "contact": "Contact"
@@ -11,8 +11,8 @@
     "footer": {
         "portfolio": "Portfolio",
         "home": "Home",
-        "about": "About Me",
-        "services": "Services",
+        "about": "Education",
+        "services": "Skills",
         "projects": "Projects",
         "testimonials": "Testimonials",
         "contact": "Contact",
@@ -23,7 +23,7 @@
         "name": "Dzhumabekov Aziret",
         "fullstack": "FullStack",
         "developer": "Developer",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolores quod ducimus cupiditate sunt? Eligendi laborum recusandae at sint error, voluptas, consectetur iure corporis asperiores ex commodi rerum enim obcaecati.",
+        "description": " fullstack developer skilled in React, Python, Django Rest Framework, and Node.js. I am passionate about building efficient and scalable web applications. Disciplined and goal-oriented, I always strive to deliver projects to the highest standard. My aim is to create user-friendly and functional solutions that benefit businesses and users alike. I continuously learn and enhance my skills to stay updated with modern technologies.",
         "hireMe": "Hire Me",
         "services": "Services",
         "servicesDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, beatae consequatur",

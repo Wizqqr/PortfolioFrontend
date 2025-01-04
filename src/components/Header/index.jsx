@@ -20,7 +20,7 @@ export const Header = ({ scrollToSection }) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
+      setIsScrolled(window.scrollY > 40 && window.scrollY < 150); 
     };
 
     window.addEventListener('scroll', handleScroll);

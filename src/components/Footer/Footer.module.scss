@@ -6,7 +6,15 @@
     text-align: center;
     padding: 20px;
 }
+.footerContainer {
+    transition: all 0.3s ease-in-out;
+}
 
+.footerContainer.scrolled {
+    background-color: rgba(0, 0, 0, 0.7); /* Change to your preferred color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Optional: Add shadow effect */
+}
+    
 .logo {
     font-size: 1rem;
     font-weight: bold;

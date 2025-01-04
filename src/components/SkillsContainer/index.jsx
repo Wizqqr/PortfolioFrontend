@@ -32,12 +32,12 @@ export const SkillsContainer = () => {
       <div className={styles.skillBar} style={{ width: "60%" }} />
     </div>
     <div className={styles.skillItem}>
-      <span>TelegramBot </span>
+      <span>Aiogram (TelegramBot) </span>
       <div className={styles.skillBar} style={{ width: "35%" }} />
     </div>   
     <div className={styles.skillItem}>
-      <span>Flutter</span>
-      <div className={styles.skillBar} style={{ width: "20%" }} />
+      <span>DataBase (MongoDB, PostgreSQL)</span>
+      <div className={styles.skillBar} style={{ width: "60%" }} />
     </div>  
     <div className={styles.skillItem}>
       <span>Express.js</span>

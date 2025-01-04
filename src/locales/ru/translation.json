@@ -2,8 +2,8 @@
     "header": {
         "portfolio": "Портфолио",
         "home": "Главная",
-        "about": "Обо мне",
-        "services": "Услуги",
+        "about": "Образование",
+        "services": "Навыки",
         "projects": "Проекты",
         "testimonials": "Отзывы",
         "contact": "Контакты"
@@ -11,8 +11,8 @@
     "footer": {
         "portfolio": "Портфолио",
         "home": "Главная",
-        "about": "Обо мне",
-        "services": "Услуги",
+        "about": "Образование",
+        "services": "Навыки",
         "projects": "Проекты",
         "testimonials": "Отзывы",
         "contact": "Контакты",
@@ -23,7 +23,7 @@
         "name": "Джумабеков Азирет",
         "fullstack": "FullStack",
         "developer": "Разработчик",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolores quod ducimus cupiditate sunt? Eligendi laborum recusandae at sint error, voluptas, consectetur iure corporis asperiores ex commodi rerum enim obcaecati.",
+        "description": "fullstack разработчик с навыками работы с React, Python, Django Rest Framework и Node.js. У меня есть сильный интерес к созданию эффективных и масштабируемых веб-приложений. Я дисциплинированный и целеустремленный, всегда стремлюсь доводить проекты до совершенства. Моя цель — создавать удобные и функциональные решения, которые помогают бизнесу и пользователям. Я постоянно учусь и развиваю свои навыки, чтобы идти в ногу с современными технологиями.",
         "hireMe": "Нанять меня",
         "services": "Услуги",
         "servicesDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, beatae consequatur",

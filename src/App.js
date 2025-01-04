@@ -4,7 +4,7 @@ import { useRef } from 'react';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Main } from './pages/Main';
-
+import AnimatedScrollComponent from './components/AnimatedScrollComponent';
 function App() {
   const homeRef = useRef(null);
   const educationRef = useRef(null);
@@ -25,6 +25,7 @@ function App() {
 
   return (
     <Router>
+      <AnimatedScrollComponent>
       <div className="App">
         <div className="container">
           <Header scrollToSection={scrollToSection} />
@@ -48,6 +49,7 @@ function App() {
           <Footer />
         </div>
       </div>
+      </AnimatedScrollComponent>
     </Router>
   );
 }

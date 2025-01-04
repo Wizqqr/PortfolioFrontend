@@ -2,7 +2,7 @@
     "header": {
         "portfolio": "Портфолио",
         "home": "Башкы бет",
-        "about": "Мен жөнүндө",
+        "about": "Окууларым",
         "services": "Кызматтар",
         "projects": "Долбоорлор",
         "testimonials": "Пикирлер",
@@ -11,7 +11,7 @@
     "footer": {
         "portfolio": "Портфолио",
         "home": "Башкы бет",
-        "about": "Мен жөнүндө",
+        "about": "Окууларым",
         "services": "Кызматтар",
         "projects": "Долбоорлор",
         "testimonials": "Пикирлер",
@@ -23,7 +23,7 @@
         "name": "Джумабеков Азирет",
         "fullstack": "FullStack",
         "developer": "Разработчик",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolores quod ducimus cupiditate sunt? Eligendi laborum recusandae at sint error, voluptas, consectetur iure corporis asperiores ex commodi rerum enim obcaecati.",
+        "description": "React, Python, Django Rest Framework жана Node.js боюнча тажрыйбалуу fullstack иштеп чыгуучумун. Мен натыйжалуу жана масштабдуу веб-тиркемелерди түзүүгө кызыгам. Дисциплиналуу жана максатка умтулган инсан катары ар дайым долбоорлорду жогорку деңгээлде бүтүрүүгө аракет кылам. Менин максатым — бизнеске жана колдонуучуларга пайда алып келүүчү ыңгайлуу жана функционалдуу чечимдерди жаратуу. Заманбап технологияларга шайкеш болуу үчүн ар дайым жаңы нерселерди үйрөнүп, жөндөмдөрүмдү өркүндөтүп турам.",
         "hireMe": "Маған жумуш сунушта",
         "services": "Кызматтар",
         "servicesDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, beatae consequatur",
